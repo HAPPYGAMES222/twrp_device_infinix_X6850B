@@ -1,5 +1,5 @@
 cc_library_static {
-    name: "libinit_X6850B",
+    name: "libinit_Infinix-X6850B",
     header_libs: [
         "libbase_headers",
     ],
