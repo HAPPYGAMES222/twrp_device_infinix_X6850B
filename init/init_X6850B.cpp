@@ -25,7 +25,7 @@ void vendor_load_properties()
     for (const string &prop : prop_partitions)
     {
         property_override(string("ro.product.") + prop + string("brand"), "Infinix");
-        property_override(string("ro.product.") + prop + string("name"), "X6850B-GL");
+        property_override(string("ro.product.") + prop + string("name"), "X6850B-OP");
         property_override(string("ro.product.") + prop + string("device"), "X6850B");
         property_override(string("ro.product.") + prop + string("model"), "Infinix X6850B");
         property_override(string("ro.product.") + prop + string("marketname"), "Infinix NOTE 40S");
